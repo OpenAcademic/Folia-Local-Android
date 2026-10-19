@@ -1,0 +1,41 @@
+Folia Local
+===========
+
+This project is an Android-native, local-only reimagining of Folia.
+
+Original project:
+  Folia (folia-major)
+  https://github.com/chthollyphile/folia-major
+  Copyright (c) the Folia contributors
+  Licensed under the GNU Affero General Public License v3.0 (AGPL-3.0)
+
+This repository is not an official Folia client and is not endorsed by the
+original project. The name "Folia", the original visual design, and the
+original project's assets remain the property of their respective authors.
+
+What this project reuses conceptually:
+  - The full-screen, lyrics-first playback experience.
+  - The lyric style names "流光 / 浮名 / 倾诉" (Lumi / Fume / Tilt).
+  - The local-library-first data model and sidecar lyric conventions.
+  - The dark visual direction and accent-color-from-cover idea.
+
+What this project does NOT include:
+  - The Electron main process or the original web frontend source code.
+  - Any online music provider (NetEase, QQ Music, Kugou, Spotify,
+    YouTube Music, Bodian), Navidrome, AI theme generation, sync server,
+    OBS/Stage/remote-control features, or mod system.
+  - Any network permission or network client.
+
+Changes made in this repository:
+  - Implemented a native Android application in Kotlin and Jetpack Compose.
+  - Added Storage Access Framework based local music folder scanning.
+  - Added Media3 based local playback and media session.
+  - Added LRC / enhanced LRC parsing and three Compose lyric renderers.
+  - Added adaptive layouts for phones, tablets and foldables.
+  - Removed all cloud APIs and the INTERNET permission.
+
+This project is distributed under AGPL-3.0. See LICENSE.
+
+If you redistribute this project or a modified version, you must comply with
+AGPL-3.0, including preserving this notice and providing the corresponding
+source code.

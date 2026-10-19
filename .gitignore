@@ -1,0 +1,24 @@
+# Gradle / Android
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 签名文件：只保留在本地，不提交、不同步
+*.jks
+*.keystore
+keystore.properties
+未命名.jks
+
+# 构建产物
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# 系统
+.DS_Store

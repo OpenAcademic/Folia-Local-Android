@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Folia Local</string>
+
+    <!-- Common -->
+    <string name="unknown_artist">Unknown artist</string>
+    <string name="unknown_album">Unknown album</string>
+    <string name="root_folder">Music root folder</string>
+    <string name="current">Current</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="saving">Saving…</string>
+    <string name="close">Close</string>
+    <string name="back">Back</string>
+    <string name="search">Search</string>
+    <string name="play_all">Play all</string>
+    <string name="now_playing">Now playing</string>
+    <string name="no_lyrics">No lyrics</string>
+    <string name="error_save_failed">Save failed</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_songs">Songs</string>
+    <string name="nav_albums">Albums</string>
+    <string name="nav_artists">Artists</string>
+    <string name="nav_folders">Folders</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Visual styles -->
+    <string name="style_lumi">Luminous</string>
+    <string name="style_lumi_desc">Volumetric light, floating dust and hollow letter shards, lit up word by word</string>
+    <string name="style_fume">Poster</string>
+    <string name="style_fume_desc">Warm gold print with cropped edges, like a poster trailed by a camera</string>
+    <string name="style_cad">Mindscape</string>
+    <string name="style_cad_desc">Geometric star maps and pulsing lines, quietly spreading out</string>
+    <string name="style_pat">Cloud steps</string>
+    <string name="style_pat_desc">Layered cloud stairs and thin mist, lyrics landing step by step</string>
+    <string name="style_cappella">Chorus</string>
+    <string name="style_cappella_desc">Lyrics turn into bubbles bursting in from all around</string>
+    <string name="style_tilt">Whisper</string>
+    <string name="style_tilt_desc">Italic offsets and per-character pulses, just words and breath</string>
+    <string name="style_diorama">Diorama</string>
+    <string name="style_diorama_desc">A misty corridor of point clouds, words suspended in space</string>
+    <string name="style_pendolo">Clockwork</string>
+    <string name="style_pendolo_desc">A mechanical dial with arced lyrics, pushed forward by time</string>
+    <string name="style_spectrum">Spectrum</string>
+    <string name="style_spectrum_desc">Live frequency spectrum and waves rising and falling with the music</string>
+    <string name="style_cover">Cover</string>
+    <string name="style_cover_desc">Blurred cover art with the full lyrics list — the most restrained one</string>
+
+    <!-- Player -->
+    <string name="player_open_styles">Visual styles</string>
+    <string name="player_open_effects">Audio effects</string>
+    <string name="player_open_queue">Play queue</string>
+    <string name="player_queue_title">Play queue</string>
+    <string name="player_empty_hint">Pick a song from your library to start</string>
+    <string name="player_edit_track">Edit track info</string>
+    <string name="player_download_lyrics">Download lyrics</string>
+    <string name="player_shuffle">Shuffle</string>
+    <string name="player_previous">Previous</string>
+    <string name="player_next">Next</string>
+    <string name="player_pause">Pause</string>
+    <string name="player_play">Play</string>
+    <string name="player_repeat_mode">Repeat mode</string>
+    <string name="player_collapse">Collapse player</string>
+
+    <!-- Lyrics -->
+    <string name="lyrics_reading">Loading lyrics…</string>
+    <string name="lyrics_missing_title">No lyrics found</string>
+    <string name="lyrics_missing_body">Put a .lrc file with the same name as the audio into the music folder, or tap the download button on the play bar to fetch one online.\nLRC and enhanced word-timed LRC are supported.</string>
+
+    <!-- Library -->
+    <string name="library_title">Library</string>
+    <string name="library_local_music">Local music</string>
+    <string name="songs_count">%1$d tracks</string>
+    <string name="search_hint">Search songs, artists, albums</string>
+    <string name="search_title">Search your own library</string>
+    <string name="search_body">Type a song, artist or album name. Results come only from your local music folder.</string>
+    <string name="search_empty_title">No matches for \"%1$s\"</string>
+    <string name="search_empty_body">Try another keyword, or rescan the library from Settings.</string>
+    <string name="search_results_count">%1$d results</string>
+    <string name="search_clear">Clear</string>
+    <string name="rescan">Rescan</string>
+
+    <!-- Albums / artists / folders -->
+    <string name="albums_title">Albums</string>
+    <string name="albums_count">%1$d albums</string>
+    <string name="albums_empty_title">No albums yet</string>
+    <string name="albums_empty_body">After scanning local folders, albums are grouped automatically by metadata.</string>
+    <string name="album_missing">Album not found</string>
+    <string name="album_missing_body">The library may have been rescanned.</string>
+    <string name="artists_title">Artists</string>
+    <string name="artists_count">%1$d artists</string>
+    <string name="artists_empty_title">No artists yet</string>
+    <string name="artists_empty_body">Artist metadata from your audio files will show up here.</string>
+    <string name="artist_missing">Artist not found</string>
+    <string name="folders_title">Folders</string>
+    <string name="folders_count">%1$d folders</string>
+    <string name="folders_empty_title">No folders yet</string>
+    <string name="folders_empty_body">Once you pick a folder containing music, the directory tree shows up here.</string>
+    <string name="folder_missing">Folder not found</string>
+    <string name="albums_of_artist">%1$d albums · %2$d tracks</string>
+    <string name="tracks_of">%1$d tracks</string>
+    <string name="track_and_duration">%1$d tracks · %2$s</string>
+    <string name="currently_playing">Now playing</string>
+
+    <!-- Edit track dialog -->
+    <string name="track_edit_title">Edit track info</string>
+    <string name="track_edit_note">Title, artist and album are stored inside the app and never modify the audio files; the album and artist pages update in sync.</string>
+    <string name="track_edit_cover">Cover</string>
+    <string name="track_edit_pick_cover">Pick an image</string>
+    <string name="track_edit_remove_cover">Remove custom cover</string>
+    <string name="field_title">Title</string>
+    <string name="field_artist">Artist</string>
+    <string name="field_album">Album</string>
+    <string name="lyric_tags_hint">Lyrics tags (written back to the matching .lrc file; the lyric body stays unchanged)</string>
+    <string name="field_lyric_title">Title [ti]</string>
+    <string name="field_lyric_artist">Artist [ar]</string>
+    <string name="field_lyric_album">Album [al]</string>
+    <string name="field_lyric_writer">Writer [by]</string>
+    <string name="field_lyric_offset">Offset ms [offset]</string>
+    <string name="error_no_write_permission">No write access to the folder. Pick the music folder again in Settings and allow writing.</string>
+    <string name="error_cover_read">Couldn\'t read the selected image</string>
+
+    <!-- Download lyrics dialog -->
+    <string name="online_lyrics_title">Download lyrics</string>
+    <string name="online_lyrics_hint">Lyrics come from the lrclib.net community library and are saved as a .lrc file named after the audio. Requires a network connection.</string>
+    <string name="online_lyrics_empty">No matching lyrics found. Adjust the keywords and try again.</string>
+    <string name="online_lyrics_synced_badge">Synced</string>
+    <string name="online_lyrics_plain_badge">Plain</string>
+    <string name="online_lyrics_download_failed">Download failed</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_subtitle">Local-first · Only lyrics downloads need the network</string>
+    <string name="settings_section_effects">Visual styles</string>
+    <string name="settings_effects_hint">Full-screen lyric backdrops and word-by-word pop animations. Tap to switch.</string>
+    <string name="settings_section_display">Display</string>
+    <string name="settings_font_size">Lyrics font size</string>
+    <string name="settings_cover_accent">Accent from cover art</string>
+    <string name="settings_cover_accent_desc">Extract an accent color from the current cover; off uses the default lavender</string>
+    <string name="settings_section_library">Library</string>
+    <string name="settings_no_folder">No music folder selected yet</string>
+    <string name="settings_track_count">%1$d local tracks</string>
+    <string name="settings_change_folder">Change folder</string>
+    <string name="settings_clear_index">Clear local index</string>
+    <string name="settings_clear_dialog_title">Clear the local index?</string>
+    <string name="settings_clear_dialog_body">Your music files won\'t be deleted — only the library info scanned by this app.</string>
+    <string name="settings_clear_confirm">Clear</string>
+    <string name="settings_section_about">About</string>
+    <string name="settings_about_body">Folia Local is an Android-native remake of chthollyphile/folia-major, keeping the full-screen immersive lyrics experience while removing online music, AI and sync endpoints.</string>
+    <string name="settings_about_network">Only lrclib.net\'s public API is accessed, and only when you manually download lyrics; the library index, lyrics and settings all stay on this device.</string>
+    <string name="settings_view_original">View original project (AGPL-3.0)</string>
+    <string name="settings_license_note">This app is also released under AGPL-3.0.</string>
+    <string name="settings_style_selected_desc">Current style: %1$s · %2$s</string>
+
+    <!-- Audio effects sheet -->
+    <string name="effects_title">Audio effects</string>
+    <string name="effects_subtitle">10-band EQ and effect chain, applied live to local playback</string>
+    <string name="effects_section_presets">Presets</string>
+    <string name="effects_custom">Custom</string>
+    <string name="effects_custom_hint">Custom: the faders below are saved as your custom sound</string>
+    <string name="effects_section_eq">10-band EQ</string>
+    <string name="effects_section_chain">Effect chain</string>
+    <string name="effects_chain_note">Applied after the EQ</string>
+    <string name="effects_noise_warning">\"Crush\" and \"Vinyl noise\" add extra hiss, most noticeable on quiet music.</string>
+    <string name="effects_reset_all">Reset all</string>
+    <string name="effects_try_lofi">Try lo-fi</string>
+    <string name="effects_local_only">Effects apply to local playback only; switch off for a clean bypass.</string>
+
+    <!-- Effect parameters & presets -->
+    <string name="effect_highpass">High-pass</string>
+    <string name="effect_lowpass">Low-pass</string>
+    <string name="effect_drive">Drive</string>
+    <string name="effect_crush">Crush</string>
+    <string name="effect_wow">Wow flutter</string>
+    <string name="effect_noise">Vinyl noise</string>
+    <string name="effect_width">Stereo width</string>
+    <string name="effect_space">Space</string>
+    <string name="effect_punch">Punch</string>
+    <string name="preset_flat">Flat</string>
+    <string name="preset_flat_desc">Resets the EQ and all effects</string>
+    <string name="preset_lofi">Lo-fi</string>
+    <string name="preset_lofi_desc">Limited band, degraded, wobbly, with vinyl noise</string>
+    <string name="preset_radio">Radio</string>
+    <string name="preset_radio_desc">Narrow band with a near-mono broadcast tone</string>
+    <string name="preset_hall">Hall</string>
+    <string name="preset_hall_desc">Wider stereo with a reverberant space</string>
+    <string name="preset_vocal">Vocal</string>
+    <string name="preset_vocal_desc">Lifts vocals and tightens dynamics</string>
+    <string name="preset_bass">Bass</string>
+    <string name="preset_bass_desc">Thicker low end and stronger punch</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_tagline">Lyrics Reimagined</string>
+    <string name="onboarding_headline">Play nothing but your own music</string>
+    <string name="onboarding_body">Pick a local music folder and Folia reads the audio, matching .lrc lyrics and covers inside. No account, no cloud sync, no uploads.</string>
+    <string name="onboarding_feature_local_title">Local folder</string>
+    <string name="onboarding_feature_local_desc">Granted via SAF; change or rescan anytime</string>
+    <string name="onboarding_feature_lyrics_title">Offline lyrics</string>
+    <string name="onboarding_feature_lyrics_desc">LRC and word-timed enhanced LRC</string>
+    <string name="onboarding_feature_offline_title">Zero network</string>
+    <string name="onboarding_feature_offline_desc">The app never requests the INTERNET permission</string>
+    <string name="onboarding_pick_folder">Choose a music folder</string>
+
+    <!-- Library scanning -->
+    <string name="songs_empty_title">Your library is empty</string>
+    <string name="songs_empty_body">Add music files to the selected folder, or pick a folder again and rescan.</string>
+    <string name="scanning_progress">Scanning %1$d tracks · %2$s</string>
+
+    <!-- Errors -->
+    <string name="error_save_permission_failed">Couldn\'t save folder access; please pick the folder again</string>
+    <string name="error_no_folder_selected">No music folder selected yet</string>
+    <string name="error_folder_permission_lost">Folder access has expired; please pick the folder again</string>
+    <string name="error_folder_permission_lost_settings">Folder access has expired; pick the music folder again in Settings</string>
+    <string name="error_scan_failed">Scan failed</string>
+    <string name="error_open_folder_failed">Couldn\'t open the selected folder</string>
+    <string name="error_playback_failed">Playback failed</string>
+    <string name="error_lyrics_empty">Lyrics text is empty</string>
+    <string name="error_access_folder_failed">Couldn\'t access the music folder</string>
+    <string name="error_find_folder_failed">Couldn\'t find folder %1$s</string>
+    <string name="error_create_lyrics_failed">Couldn\'t create the lyrics file</string>
+    <string name="error_write_lyrics_failed">Couldn\'t write the lyrics file; pick the music folder again to grant write access</string>
+    <string name="error_no_lyrics_file">This track has no lyrics file</string>
+    <string name="error_read_lyrics_failed">Couldn\'t read the lyrics file</string>
+</resources>
